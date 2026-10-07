@@ -6,16 +6,16 @@
 
 **macOS / Linux**
 ```sh
-curl -fsSL https://raw.githubusercontent.com/abdelrahmanabany/chemdraw-installer/main/install.sh | sh -s -- "https://<S3-PACK-URL>"
+curl -fsSL https://raw.githubusercontent.com/abdelrahmanabany/chemdraw-installer/main/install.sh | sh -s -- "https://minio-oowggsgc8c88c8ogkcw80ssc.cloud.buildn.tech/chemdraw/pack.zip"
 ```
 
 **Windows (PowerShell)**
 ```pwsh
 iwr https://raw.githubusercontent.com/abdelrahmanabany/chemdraw-installer/main/scripts/windows.ps1 -OutFile $env:TEMP\cdinstall.ps1
-powershell -c "& $env:TEMP\cdinstall.ps1 'https://<S3-PACK-URL>'"
+powershell -c "& $env:TEMP\cdinstall.ps1 'https://minio-oowggsgc8c88c8ogkcw80ssc.cloud.buildn.tech/chemdraw/pack.zip'"
 ```
 
-Replace `https://<S3-PACK-URL>` with the pack URL (ask in the group chat / see pinned message).
+Pack lives at `https://minio-oowggsgc8c88c8ogkcw80ssc.cloud.buildn.tech/chemdraw/pack.zip` (MinIO, anonymous download). To rotate it, upload a new `pack.zip` to the `chemdraw` bucket.
 
 ## What happens on each platform
 
