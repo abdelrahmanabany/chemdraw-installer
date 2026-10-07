@@ -6,12 +6,12 @@
 
 **macOS / Linux**
 ```sh
-curl -fsSL https://raw.githubusercontent.com/buildn-dev/chemdraw-installer/main/install.sh | sh -s -- "https://<S3-PACK-URL>"
+curl -fsSL https://raw.githubusercontent.com/abdelrahmanabany/chemdraw-installer/main/install.sh | sh -s -- "https://<S3-PACK-URL>"
 ```
 
 **Windows (PowerShell)**
 ```pwsh
-iwr https://raw.githubusercontent.com/buildn-dev/chemdraw-installer/main/scripts/windows.ps1 -OutFile $env:TEMP\cdinstall.ps1
+iwr https://raw.githubusercontent.com/abdelrahmanabany/chemdraw-installer/main/scripts/windows.ps1 -OutFile $env:TEMP\cdinstall.ps1
 powershell -c "& $env:TEMP\cdinstall.ps1 'https://<S3-PACK-URL>'"
 ```
 

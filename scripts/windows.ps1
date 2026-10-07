@@ -1,6 +1,6 @@
 # ChemDraw one-line installer for Windows
 # Open PowerShell and run:
-#   powershell -c "iwr https://raw.githubusercontent.com/buildn-dev/chemdraw-installer/main/scripts/windows.ps1 -OutFile $env:TEMP\cdinstall.ps1; & $env:TEMP\cdinstall.ps1 '<S3_PACK_URL>'"
+#   powershell -c "iwr https://raw.githubusercontent.com/abdelrahmanabany/chemdraw-installer/main/scripts/windows.ps1 -OutFile $env:TEMP\cdinstall.ps1; & $env:TEMP\cdinstall.ps1 '<S3_PACK_URL>'"
 param(
   [Parameter(Mandatory=$true)][string]$PackUrl
 )

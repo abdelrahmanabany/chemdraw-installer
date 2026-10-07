@@ -1,7 +1,7 @@
 #!/bin/sh
 # ChemDraw one-line installer (macOS + Linux)
 #
-#   curl -fsSL https://raw.githubusercontent.com/buildn-dev/chemdraw-installer/main/install.sh | sh -s -- "S3_PACK_URL"
+#   curl -fsSL https://raw.githubusercontent.com/abdelrahmanabany/chemdraw-installer/main/install.sh | sh -s -- "S3_PACK_URL"
 #
 # macOS:  installs Homebrew (if missing) + wine + winetricks, creates ~/.chemdraw-wine,
 #         installs .NET 4.8, installs the suite from the S3 pack, applies patches, launches.
