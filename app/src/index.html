@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChemDraw Installer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>ChemDraw Installer</h1>
+    <p class="sub">One button. Wine + .NET + ChemDraw, then it launches.</p>
+
+    <ol id="steps">
+      <li data-step="deps">Install Wine + helpers</li>
+      <li data-step="dotnet">Install .NET Framework 4.8 (~15 min, looks frozen, isn't)</li>
+      <li data-step="suite">Install ChemDraw Suite</li>
+      <li data-step="patch">Apply patches + launch</li>
+    </ol>
+
+    <div id="bar"><div id="fill"></div></div>
+
+    <button id="go">Install ChemDraw</button>
+    <p id="status">Idle.</p>
+    <pre id="log"></pre>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>

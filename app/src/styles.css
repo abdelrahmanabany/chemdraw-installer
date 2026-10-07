@@ -1,0 +1,14 @@
+:root { font-family: -apple-system, system-ui, sans-serif; }
+body { margin: 0; background: #101418; color: #e8eef4; }
+main { max-width: 640px; margin: 32px auto; padding: 0 20px 40px; }
+.sub { color: #9fb0c0; margin-top: -8px; }
+#steps { padding-left: 20px; color: #9fb0c0; }
+#steps li.done { color: #7ee2a8; }
+#bar { height: 10px; background: #222b33; border-radius: 6px; overflow: hidden; margin: 16px 0; }
+#fill { height: 100%; width: 0%; background: #4da3ff; transition: width .3s; }
+#go { font-size: 17px; padding: 12px 28px; border: 0; border-radius: 10px;
+      background: #2f7cf6; color: white; cursor: pointer; }
+#go:disabled { opacity: .45; cursor: default; }
+#status { min-height: 1.4em; color: #ffd479; }
+#log { background: #0a0d10; border: 1px solid #263038; border-radius: 8px;
+       padding: 12px; height: 220px; overflow-y: auto; font-size: 12px; white-space: pre-wrap; }
